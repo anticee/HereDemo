@@ -1,0 +1,6 @@
+[
+  {"ip":"127.0.0.1", "timestamp":"12234320312", "lon":1231, "lat": 1331, "indicator": 2},
+  {"ip":"127.0.0.1", "timestamp":"12234320312", "lon":1231, "lat": 1331, "indicator": 1},
+  {"ip":"127.0.0.1", "timestamp":"12234320312", "lon":1231, "lat": 1331, "indicator": 0},
+  {"ip":"127.0.0.1", "timestamp":"12234320312", "lon":1231, "lat": 1331, "indicator": 1}
+]

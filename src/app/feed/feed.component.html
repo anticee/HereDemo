@@ -1,0 +1,11 @@
+<div class="feed-container">
+  <div class="card" *ngFor="let item of this.data">
+    <p class="ip">{{item.ip}}</p>
+    <p class="timestamp">{{item.timestamp}}</p>
+    <div [ngClass]="{'ball-red': item.indicator === 0, 'ball-yellow': item.indicator === 1,
+     'ball-green': item.indicator === 2}"></div>
+    <p class="lon">lon: {{item.lon}}</p>
+    <p class="lat">lat: {{item.lat}}</p>
+  </div>
+</div>
+<button id="button" class="btn btn-primary" (click)="clicked($event)">button</button>
